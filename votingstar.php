@@ -179,7 +179,7 @@ function votingstar_handle_input() {
 	if ( 'csv' === $vs ) {
 		header( 'Content-Disposition: inline; filename="votes.csv"' );
 		header( 'Content-type: text/plain' );
-		$data = votingstar_votes( $user );
+		$data = votingstar_votes();
 		foreach ( $data->votes as $k => $v ) {
 			echo "$k\t$v\n";
 		}
