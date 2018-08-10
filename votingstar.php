@@ -11,7 +11,7 @@
  * Plugin Name: VotingStar
  * Plugin URI:  https://github.com/stepmuel/votingstar
  * Description: Adds named counters to WordPress.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Stephan Müller
  * Author URI:  http://heap.ch
  * Text Domain: voting-star
